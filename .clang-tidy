@@ -1,0 +1,12 @@
+# Bug-finding checks only; style is handled by .clang-format.
+Checks: >
+  -*,
+  bugprone-*,
+  -bugprone-easily-swappable-parameters,
+  -bugprone-narrowing-conversions,
+  -bugprone-throwing-static-initialization,
+  clang-analyzer-*,
+  performance-*,
+  readability-else-after-return,
+  readability-redundant-*
+WarningsAsErrors: ''

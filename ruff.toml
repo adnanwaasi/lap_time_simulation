@@ -1,0 +1,6 @@
+line-length = 100
+exclude = [".venv", "*.ipynb"]
+
+[lint]
+# pyflakes, pycodestyle errors, bugbear, numpy-specific rules
+select = ["F", "E", "B", "NPY"]
